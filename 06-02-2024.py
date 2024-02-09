@@ -7,6 +7,6 @@ def escoger_genero(genero):
     else:
         return f'Género no disponible'
 
-genero = input('Ingrese M o F para seleccionar su sexo: ')
+genero = input('Ingrese M o F para seleccionar su género: ')
 
 print(escoger_genero(genero))
