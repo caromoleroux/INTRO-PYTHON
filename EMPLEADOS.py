@@ -1,0 +1,122 @@
+EMPLEADOS=[
+  {
+    "id": 1001,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=BS&height=120&width=120",
+    "firstName": "Bobbie",
+    "lastName": "Steuber",
+    "email": "Bobbie.Steuber@dummyapis.com",
+    "contactNumber": "4880293925",
+    "age": 58,
+    "dob": "18/06/1966",
+    "salary": 1.0,
+    "address": "Address1"
+  },
+  {
+    "id": 1002,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=GR&height=120&width=120",
+    "firstName": "Grace",
+    "lastName": "Rosenbaum",
+    "email": "Grace.Rosenbaum@dummyapis.com",
+    "contactNumber": "4435390950",
+    "age": 52,
+    "dob": "30/11/1972",
+    "salary": 2.0,
+    "address": "Address2"
+  },
+  {
+    "id": 1003,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=AJ&height=120&width=120",
+    "firstName": "Ari",
+    "lastName": "Jaskolski",
+    "email": "Ari.Jaskolski@dummyapis.com",
+    "contactNumber": "4674491621",
+    "age": 25,
+    "dob": "22/01/1999",
+    "salary": 3.0,
+    "address": "Address3"
+  },
+  {
+    "id": 1004,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=ER&height=120&width=120",
+    "firstName": "Einar",
+    "lastName": "Raynor",
+    "email": "Einar.Raynor@dummyapis.com",
+    "contactNumber": "4419090572",
+    "age": 24,
+    "dob": "11/07/2000",
+    "salary": 4.0,
+    "address": "Address4"
+  },
+  {
+    "id": 1005,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=EC&height=120&width=120",
+    "firstName": "Eleanor",
+    "lastName": "Crooks",
+    "email": "Eleanor.Crooks@dummyapis.com",
+    "contactNumber": "4958493633",
+    "age": 55,
+    "dob": "04/01/1969",
+    "salary": 5.0,
+    "address": "Address5"
+  },
+  {
+    "id": 1006,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=EW&height=120&width=120",
+    "firstName": "Elias",
+    "lastName": "West",
+    "email": "Elias.West@dummyapis.com",
+    "contactNumber": "4820394094",
+    "age": 41,
+    "dob": "15/07/1983",
+    "salary": 6.0,
+    "address": "Address6"
+  },
+  {
+    "id": 1007,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=LK&height=120&width=120",
+    "firstName": "Lesley",
+    "lastName": "Kozey",
+    "email": "Lesley.Kozey@dummyapis.com",
+    "contactNumber": "4319291639",
+    "age": 27,
+    "dob": "30/10/1997",
+    "salary": 7.0,
+    "address": "Address7"
+  },
+  {
+    "id": 1008,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=CH&height=120&width=120",
+    "firstName": "Chasity",
+    "lastName": "Heaney",
+    "email": "Chasity.Heaney@dummyapis.com",
+    "contactNumber": "4356794636",
+    "age": 80,
+    "dob": "27/10/1944",
+    "salary": 8.0,
+    "address": "Address8"
+  },
+  {
+    "id": 1009,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=DP&height=120&width=120",
+    "firstName": "Della",
+    "lastName": "Pfeffer",
+    "email": "Della.Pfeffer@dummyapis.com",
+    "contactNumber": "4504891221",
+    "age": 45,
+    "dob": "16/02/1979",
+    "salary": 9.0,
+    "address": "Address9"
+  },
+  {
+    "id": 1010,
+    "imageUrl": "https://hub.dummyapis.com/Image?text=EM&height=120&width=120",
+    "firstName": "Ezra",
+    "lastName": "McCullough",
+    "email": "Ezra.McCullough@dummyapis.com",
+    "contactNumber": "4905891838",
+    "age": 51,
+    "dob": "18/09/1973",
+    "salary": 10.0,
+    "address": "Address10"
+  }
+]
