@@ -1,3 +1,4 @@
+import sys
 def validar_ip(ip):
     octetos = ip.split('.')
     if len(octetos) != 4:
@@ -14,18 +15,37 @@ def validar_ip(ip):
 def clase_ip(ip):
     octetos = list(map(int, ip.split('.')))
     if 1 <= octetos[0] <= 126:
-        return 'Clase A'
+        return 'A'
     elif 128 <= octetos[0] <= 191:
-        return 'Clase B'
+        return 'B'
     elif 192 <= octetos[0] <= 223:
-        return 'Clase C'
+        return 'C'
     else:
-        return 'No es clase A, B o C'
+        return 'No es A, B o C'
 
-ip = input("Ingresa la dirección IP: ")
+def validar_direccion_ip(ip, clase):
+    clase = clase.upper()  # Convertir a mayúsculas
+    if clase.startswith("CLASE "):
+        clase = clase[6:]  # Eliminar "CLASE " si está presente
+    clase_ip_calculada = clase_ip(ip)
+    if clase_ip_calculada == clase:
+        return f'La dirección IP {ip} corresponde a la clase {clase}.'
+    else:
+        return f'La dirección IP {ip} no corresponde a la clase {clase}. Pertenece a la clase {clase_ip_calculada}.'
 
-if validar_ip(ip):
-    clase = clase_ip(ip)
-    print(f"La dirección IP {ip} pertenece a la {clase}.")
-else:
-    print("La dirección IP ingresada no es válida.")
+def main():
+    if len(sys.argv) != 3:
+        print("Uso: python script.py <direccion_ip> <clase>")
+        sys.exit(1)
+
+    ip = sys.argv[1]
+    clase = sys.argv[2]
+
+    if not validar_ip(ip):
+        print("La dirección IP ingresada no es válida.")
+        sys.exit(1)
+
+    print(validar_direccion_ip(ip, clase.upper()))
+
+if __name__ == "__main__":
+    main()
